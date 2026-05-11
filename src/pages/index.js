@@ -245,7 +245,6 @@ export default function Home({ mode }) {
         {[
           { href: '/about', label: 'About Me', desc: 'Learn my story, experience, and education', emoji: '👤' },
           { href: '/projects', label: 'Projects', desc: 'Explore my portfolio of work', emoji: '💼' },
-          {/* { href: '/articles', label: 'Articles', desc: 'Read my tech articles and guides', emoji: '📝' }, */}
         ].map((item, i) => (
           <motion.div
             key={item.href}
