@@ -21,7 +21,7 @@ const projects = [
     period: 'Jan 2025 – Apr 2025',
     type: 'IoT Project',
     tags: ['OpenCV', 'NodeMCU', 'ESP32-CAM', 'Python'],
-    image: '/images/projects/nft-collection-website-cover-image.jpg',
+    image: '/images/projects/IoT-img.jpg',
     description:
       'An IoT-based real-time animal detection system for forest roads. Used OpenCV and ESP32-CAM to stream video and detect animals, activating alert LEDs instantly on detection.',
     github: 'https://github.com/krizz18bugger',
@@ -31,7 +31,7 @@ const projects = [
     period: 'Mar 2025 – Apr 2025',
     type: 'Deep Learning',
     tags: ['TensorFlow', 'Scikit-learn', 'DenseNet-121', 'Python'],
-    image: '/images/projects/crypto-screener-cover-image.jpg',
+    image: '/images/projects/deep-learning.jpg',
     description:
       'Deep learning model for brain tumor classification achieving 88% accuracy, AUC-ROC of 0.98, with strong precision and recall across all classes.',
     github: 'https://github.com/krizz18bugger/Brain-Tumor-Classification.git',
@@ -41,7 +41,7 @@ const projects = [
     period: 'Oct 2024 – Nov 2024',
     type: 'Web Development',
     tags: ['HTML5', 'CSS3', 'JavaScript'],
-    image: '/images/projects/fashion-studio-website.jpg',
+    image: '/images/projects/web-dev.jpg',
     description:
       'Responsive webpages for Seva NGO with user-friendly layouts and interactive JavaScript elements to enhance engagement and cross-browser compatibility.',
     github: 'https://github.com/krizz18bugger/Seva-Web-Page.git',
@@ -51,20 +51,20 @@ const projects = [
     period: 'Dec 2023 – Apr 2024',
     type: 'Algebra / Math',
     tags: ['Python', 'Algebra', 'Algorithms'],
-    image: '/images/projects/portfolio-cover-image.jpg',
+    image: '/images/projects/math.jpg',
     description:
       'Implemented algorithms to compute and analyze algebraic group structures and subgroup relationships using Python mathematical programming.',
     github: 'https://github.com/krizz18bugger',
   },
   {
     title: 'React Portfolio Website',
-    period: '2024',
+    period: 'May 2026',
     type: 'Web Development',
     tags: ['Next.js', 'React', 'Framer Motion', 'CSS'],
-    image: '/images/projects/devdreaming.jpg',
+    image: '/images/projects/web-dev2.jpg',
     description:
       'A professional developer portfolio website built with Next.js and Framer Motion featuring smooth animations, dark mode, and a fully responsive design.',
-    github: 'https://github.com/krizz18bugger',
+    github: 'https://github.com/krizz18bugger/Portfolio',
   },
 ]
 
