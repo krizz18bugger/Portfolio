@@ -169,7 +169,7 @@ export default function Home({ mode }) {
               }}
             >
               <Image
-                src="/images/profile/developer-pic-1.png"
+                src="/images/profile/index-img2.jpg"
                 alt="Krishnamoorthi R – Frontend Developer"
                 fill
                 style={{ objectFit: 'cover' }}

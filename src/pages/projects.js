@@ -61,7 +61,7 @@ const projects = [
     period: 'May 2026',
     type: 'Web Development',
     tags: ['Next.js', 'React', 'Framer Motion', 'CSS'],
-    image: '/images/projects/web-dev2.jpg',
+    image: '/images/projects/portfolio-cover-image.jpg',
     description:
       'A professional developer portfolio website built with Next.js and Framer Motion featuring smooth animations, dark mode, and a fully responsive design.',
     github: 'https://github.com/krizz18bugger/Portfolio.git',
