@@ -20,7 +20,7 @@ const experiences = [
 
 const education = [
   {
-    degree: 'MCA (CGPA: 8.6)',
+    degree: 'MCA (CGPA: 8.9)',
     school: 'The Gandhigram Rural Institute – DTBU',
     period: 'Jul 2024 – May 2026',
     location: 'Dindigul, Tamil Nadu',
@@ -46,11 +46,49 @@ const education = [
 ]
 
 const skills = {
-  'Programming Languages': ['Python', 'Java', 'R', 'SQL'],
-  'Web Technologies': ['HTML5', 'CSS3', 'JavaScript', 'React.js'],
-  'Libraries & Tools': ['NumPy', 'Pandas', 'Scikit-learn', 'TensorFlow', 'OpenCV', 'NLTK', 'Git', 'GitHub'],
-  'Frameworks': ['Node.js', 'Express.js', 'Supabase', 'Vite', 'TailwindCSS'],
-}
+  'Programming Languages': [
+    'Python',
+    'Java',
+    'JavaScript',
+    'SQL',
+    'R'
+  ],
+
+  'Web Technologies': [
+    'HTML5',
+    'CSS3',
+    'Tailwind CSS',
+    'React.js',
+    'Redux Toolkit',
+    'Node.js',
+    'Express.js',
+    'REST APIs',
+    'JWT Authentication'
+  ],
+
+  'Databases': [
+    'MySQL',
+    'PostgreSQL',
+    'MongoDB'
+  ],
+
+  'Libraries & Frameworks': [
+    'NumPy',
+    'Pandas',
+    'Scikit-learn',
+    'TensorFlow',
+    'OpenCV',
+    'NLTK',
+    'Vite'
+  ],
+
+  'Tools & Platforms': [
+    'Git',
+    'GitHub',
+    'Google Colab',
+    'Vercel'
+  ]
+};
 
 const interests = [
   'Full Stack Web Development', 'Frontend Development',
@@ -72,7 +110,7 @@ export default function About({ mode }) {
     <>
       <Head>
         <title>About | Krishnamoorthi R</title>
-        <meta name="description" content="Learn about Krishnamoorthi R – Frontend Developer. Background, skills, experience, and education." />
+        <meta name="description" content="Learn about Krishnamoorthi R – Software Developer. Background, skills, experience, and education." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
@@ -93,8 +131,8 @@ export default function About({ mode }) {
             style={{ flex: '1 1 320px' }}
           >
             <p style={{ lineHeight: 1.9, opacity: 0.8, marginBottom: '1rem' }}>
-              Hi, I&apos;m <strong>Krishnamoorthi R</strong>, a Frontend Developer with strong expertise in
-              HTML, CSS, JavaScript, and React.js. I&apos;m experienced in building responsive and
+              Hi, I&apos;m <strong>Krishnamoorthi R</strong>, a Software Developer with strong expertise in
+              HTML, CSS, JavaScript, React.js, Node.js and Express.js. I&apos;m experienced in building responsive and
               user-centric web interfaces with a focus on UI optimization, cross-browser
               compatibility, and API integration.
             </p>
@@ -270,7 +308,8 @@ export default function About({ mode }) {
           </h2>
           <div className="divider" />
           {[
-            'Legacy Responsive Web Design V8: Responsive Web Design certification from freeCodeCamp – HTML5, CSS & accessible layouts.',
+            'Responsive Web Design: Responsive Web Design certification from freeCodeCamp – HTML5, CSS & accessible layouts.',
+            'JavaScript Developer: Earned the 300-hour JavaScript Developer certification from freeCodeCamp. Gained practical, hands-on experience in modern JavaScript (ES6+), object-oriented programming, and functional programming by solving coding challenges and building algorithmic projects.',
             'Full Stack Web Development: Completed 2-day live training program on Full Stack Web Development.',
             'Paper Presentation: Presented "Enhanced Brain Tumor Classification with DenseNet-121" at NCACDS-2025.',
             'Students\' Mentor of YSSP-2025: Trained and encouraged school students to develop an IoT-based Smart Dustbin.',

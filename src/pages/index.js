@@ -16,8 +16,8 @@ export default function Home({ mode }) {
   return (
     <>
       <Head>
-        <title>Krishnamoorthi R | Frontend Developer</title>
-        <meta name="description" content="Frontend Developer skilled in React.js, HTML, CSS and JavaScript. Building responsive and user-centric web applications." />
+        <title>Krishnamoorthi R | Software Developer</title>
+        <meta name="description" content="Software Developer skilled in React.js, Node.js, Express.js, HTML, CSS and JavaScript. Building responsive and user-centric web applications." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -66,7 +66,7 @@ export default function Home({ mode }) {
               textTransform: 'uppercase',
             }}
           >
-            Frontend Developer
+            Software Developer
           </motion.span>
 
           <AnimatedText
@@ -85,8 +85,8 @@ export default function Home({ mode }) {
               fontSize: '1rem',
             }}
           >
-            I&apos;m Krishnamoorthi R, a passionate Frontend Developer with expertise in
-            React.js, HTML, CSS, and JavaScript. I build responsive, accessible and
+            I&apos;m Krishnamoorthi R, a passionate Software Developer with expertise in
+            React.js, Node.js, Express.js, HTML, CSS, and JavaScript. I build responsive, accessible and
             high-performance web applications.
           </motion.p>
 
@@ -97,7 +97,7 @@ export default function Home({ mode }) {
             style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginTop: '2rem' }}
           >
             <a
-              href="/All-Texts/Resume (3).pdf"
+              href="/All-Texts/Resume-optimized.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className={`btn-primary${isDark ? ' light' : ''}`}
@@ -170,7 +170,7 @@ export default function Home({ mode }) {
             >
               <Image
                 src="/images/profile/index-img2.jpg"
-                alt="Krishnamoorthi R – Frontend Developer"
+                alt="Krishnamoorthi R – Software Developer"
                 fill
                 style={{ objectFit: 'cover' }}
                 priority
