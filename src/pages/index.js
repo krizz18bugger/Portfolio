@@ -97,7 +97,7 @@ export default function Home({ mode }) {
             style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginTop: '2rem' }}
           >
             <a
-              href="/All-Texts/Resume-optimized.pdf"
+              href="/All-Texts/resume_1.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className={`btn-primary${isDark ? ' light' : ''}`}
