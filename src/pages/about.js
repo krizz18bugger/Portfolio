@@ -5,15 +5,15 @@ import AnimatedText from '@/components/AnimatedText'
 
 const experiences = [
   {
-    role: 'Front-end Developer Intern',
+    role: 'MERN Stack Developer Intern',
     company: 'ASM Academy',
     period: 'Feb 2026 – Apr 2026',
     location: 'Nilakottai, Dindigul',
     points: [
-      'Engineered a responsive Venue Booking Web Application using React with modular and scalable frontend architecture.',
-      'Developed dynamic UI components to streamline venue search, selection, and booking processes.',
+      'Developed a full-stack Venue Booking Web Application using MongoDB, Express.js, React.js, and Node.js.',
+      'Designed the Hall Owner Module to add and manage venue information, booking approvals, and revenue analytics.',
       'Improved application responsiveness and performance through component optimization and efficient state management.',
-      'Worked in an internship environment to translate project requirements into functional frontend features and intuitive user experiences.',
+      'Worked in an internship environment to translate project requirements into functional features and intuitive user experiences.',
     ],
   },
 ]
@@ -91,7 +91,7 @@ const skills = {
 };
 
 const interests = [
-  'Full Stack Web Development', 'Frontend Development',
+  'Full Stack Web Development',
   'Database Systems', 'REST API Development',
   'Machine Learning', 'Deep Learning',
 ]
